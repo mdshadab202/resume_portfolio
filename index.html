@@ -1,130 +1,73 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Aqleem Khan </title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
-    <style>
-        /* Basic CSS for layout and styling */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        nav {
-            background: #444;
-            padding: 0.5rem 0;
-            text-align: center;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.2rem;
-        }
-
-        section {
-            padding: 2rem;
-            margin: 1rem auto;
-            max-width: 1000px;
-        }
-
-        .content {
-            margin: 2rem 0;
-        }
-
-        .content h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1rem;
-        }
-
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio - Aqleem Khan</title>
 </head>
-<body>
-    <header>
-        <h1> AQLEEM KHAN</h1>
-        <p>Data Science | AI | Machine Learning Enthusiast</p>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; background-color: #f4f4f4; color: #333; margin: 0; padding: 0;">
+
+    <!-- Navbar -->
+    <header style="background: #333; color: #fff; padding: 10px 0; text-align: center;">
+        <nav>
+            <ul style="list-style: none; margin: 0; padding: 0;">
+                <li style="display: inline; margin: 0 15px;"><a href="#home" style="color: #fff; text-decoration: none; font-weight: bold;">Home</a></li>
+                <li style="display: inline; margin: 0 15px;"><a href="#about" style="color: #fff; text-decoration: none; font-weight: bold;">About</a></li>
+                <li style="display: inline; margin: 0 15px;"><a href="#projects" style="color: #fff; text-decoration: none; font-weight: bold;">Projects</a></li>
+                <li style="display: inline; margin: 0 15px;"><a href="#contact" style="color: #fff; text-decoration: none; font-weight: bold;">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <section id="about" class="content">
-        <h2>About Me</h2>
-        <p>Hello! I am Aqleem Khan, data science enthusiast with a strong foundation in machine learning, statistical analysis, and data visualization. Experienced in utilizing Python and SQL to extract actionable insights from complex datasets. Skilled in developing predictive models and conducting in-depth exploratory data analysis. Eager to contribute my analytical skills and drive for innovation to a dynamic data science team. Open to opportunities that challenge and broaden my expertise in the field. Let's connect and explore the possibilities!</p>
+    <!-- Home Section -->
+    <section id="home" style="padding: 50px 20px; text-align: center;">
+        <div style="max-width: 1100px; margin: auto;">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I am Aqleem Khan, a passionate Data Scientist and AI/ML enthusiast.</p>
+        </div>
     </section>
 
-    <section id="skills" class="content">
-        <h2>Skills</h2>
-        <ul>
-            <li>Programming Languages: Python, SQL</li>
-            <li>Machine Learning: Scikit-learn, TensorFlow, Keras</li>
-            <li>Data Visualization: Matplotlib, Seaborn, Plotly</li>
-            <li>Natural Language Processing: NLTK, SpaCy</li>
-            <li>Database Management: MySQL, PostgreSQL</li>
-            <li>Tools: Git, Jupyter Notebook, Kaggle</li>
-        </ul>
+    <!-- About Section -->
+    <section id="about" style="padding: 50px 20px; text-align: center;">
+        <div style="max-width: 1100px; margin: auto;">
+            <h2>About Me</h2>
+            <p>I am currently learning Data Science, AI, and Machine Learning. I have hands-on experience with various projects in these fields.</p>
+        </div>
     </section>
 
-    <section id="projects" class="content">
-        <h2>Projects</h2>
-        <h3>Twitter Sentiment Analysis</h3>
-        <p>Performed sentiment analysis on Twitter data using Bidirectional LSTMs with randomly initialized embeddings. Achieved a validation accuracy of 87% in classifying tweets as positive, negative, irrelevant, or neutral.</p>
-        <!-- Add more projects in a similar way -->
+    <!-- Projects Section -->
+    <section id="projects" style="padding: 50px 20px; text-align: center;">
+        <div style="max-width: 1100px; margin: auto;">
+            <h2>Projects</h2>
+            <div style="margin-bottom: 20px;">
+                <h3>Next Word Predictor</h3>
+                <p>A Next Word Predictor built using LSTM on Kaggle. Check it out <a href="#">here</a>.</p>
+            </div>
+            <div style="margin-bottom: 20px;">
+                <h3>Twitter Sentiment Analysis</h3>
+                <p>Twitter sentiment analysis project using randomly initialized embeddings and Bidirectional LSTMs with 87% validation accuracy.</p>
+            </div>
+        </div>
     </section>
 
-    <section id="experience" class="content">
-        <h2>Experience</h2>
-        <h3>Data Science Intern</h3>
-        <p>Company Name | Date</p>
-        <ul>
-            <li>Worked on data preprocessing, feature engineering, and model building for various projects.</li>
-            <li>Collaborated with cross-functional teams to deliver data-driven insights.</li>
-        </ul>
-        <!-- Add more experiences in a similar way -->
+    <!-- Contact Section -->
+    <section id="contact" style="padding: 50px 20px; text-align: center;">
+        <div style="max-width: 1100px; margin: auto;">
+            <h2>Contact Me</h2>
+            <form style="display: flex; flex-direction: column; align-items: center;">
+                <label for="name" style="margin: 10px 0;">Name:</label>
+                <input type="text" id="name" name="name" required style="width: 100%; max-width: 500px; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
+
+                <label for="email" style="margin: 10px 0;">Email:</label>
+                <input type="email" id="email" name="email" required style="width: 100%; max-width: 500px; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;">
+
+                <label for="message" style="margin: 10px 0;">Message:</label>
+                <textarea id="message" name="message" required style="width: 100%; max-width: 500px; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"></textarea>
+
+                <button type="submit" style="padding: 10px 20px; background: #333; color: #fff; border: none; cursor: pointer; margin-top: 20px;">Submit</button>
+            </form>
+        </div>
     </section>
 
-    <section id="contact" class="content">
-        <h2>Contact</h2>
-        <p>Email: aqleemkhan408@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/aqleem-khan-167328251/" target="_blank">Visit LinkedIn Profile</a></p>
-        <p>GitHub: <a href="https://github.com/khan-408" target="_blank">Visit GitHub Profile</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Aqleem_Khan. All rights reserved.</p>
-    </footer>
 </body>
 </html>
