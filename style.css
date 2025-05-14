@@ -2671,6 +2671,12 @@ h2 {
     font-weight:600
   }
 }
+.courses-title {
+  color: #e5f2ee;  /* Radium Green */
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #000; /* Optional for glow */
+}
+
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 footer {display:table-row;}
