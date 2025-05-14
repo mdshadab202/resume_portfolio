@@ -2671,44 +2671,6 @@ h2 {
     font-weight:600
   }
 }
-/* Natural background */
-body {
-  background: linear-gradient(to bottom right, #f4f4f4, #e6f0ff);
-  color: #212529; /* dark text */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* Section titles */
-h2 {
-  color: #003366; /* dark natural blue */
-}
-
-/* Experience card */
-.card {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 15px;
-  transition: 0.3s;
-}
-
-.card:hover {
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-/* Resume button */
-#resume-download .btn {
-  border-radius: 25px;
-  font-weight: 600;
-  padding: 10px 25px;
-  transition: 0.3s ease-in-out;
-}
-
-#resume-download .btn:hover {
-  background-color: #003366;
-  color: #fff;
-  border: 1px solid #003366;
-}
-
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 footer {display:table-row;}
